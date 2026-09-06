@@ -698,5 +698,3 @@ Before moving to the final assessment, confirm:
 After completing this project, you should be able to explain:
 
 > "Object-oriented programming allows me to model a real-world problem using objects, organize responsibilities into classes, reuse behavior through inheritance, provide flexible behavior through polymorphism, hide implementation details through abstraction, define capabilities with interfaces, and connect objects through composition."
-
-Once the application and documentation are complete, continue to the Module 7 Final Assessment: Java OOP Capstone.
