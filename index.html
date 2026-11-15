@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java OOP Learning Platform</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+
+            <div class="brand">
+                <div class="brand-icon">J</div>
+
+                <div>
+                    <h1>Java Object Oriented Programming</h1>
+                    <span>Learning Platform</span>
+                </div>
+            </div>~
+
+            <nav class="navigation">
+
+                <a href="#" class="nav-item active" data-page="dashboard">
+                    <span class="nav-icon">⌂</span>
+                    <span>Dashboard</span>
+                </a>
+
+                <div class="nav-section-title">LEARNING</div>
+
+                <a href="#" class="nav-item" data-page="modules">
+                    <span class="nav-icon">▣</span>
+                    <span>All Modules</span>
+                </a>
+
+                <a href="#" class="nav-item" data-page="progress">
+                    <span class="nav-icon">◔</span>
+                    <span>My Progress</span>
+                </a>
+
+                <a href="#" class="nav-item" data-page="assessments">
+                    <span class="nav-icon">✓</span>
+                    <span>Assessments</span>
+                </a>
+
+            </nav>
+
+            <div class="sidebar-footer">
+                <div class="learner-avatar">L</div>
+
+                <div class="learner-info">
+                    <strong>Learner</strong>
+                    <span>Java OOP Program</span>
+                </div>
+            </div>
+
+        </aside>
+
+
+        <!-- Main Application -->
+        <main class="main-content">
+
+            <!-- Top Bar -->
+            <header class="topbar">
+
+                <div>
+                    <p class="breadcrumb">Learning Platform</p>
+                    <h2 id="page-title">Dashboard</h2>
+                </div>
+
+                <div class="topbar-actions">
+                    <button class="icon-button" title="Notifications">
+                        ♢
+                    </button>
+
+                    <div class="profile">
+                        <div class="profile-avatar">L</div>
+                        <span>Learner</span>
+                    </div>
+                </div>
+
+            </header>
+
+
+            <!-- Page Content -->
+            <div class="content">
+
+
+                <!-- Dashboard Page -->
+                <section id="dashboard-page" class="page active">
+
+                    <div class="welcome-section">
+
+                        <div>
+                            <p class="eyebrow">JAVA OOP LEARNING PROGRAM</p>
+
+                            <h1>
+                                Welcome back, Learner!
+                            </h1>
+
+                            <p class="welcome-text">
+                                Build your understanding of Java Object-Oriented
+                                Programming through structured learning, practice,
+                                and assessment.
+                            </p>
+                        </div>
+
+                        <button class="primary-button" id="continue-learning">
+                            Continue Learning
+                            <span>→</span>
+                        </button>
+
+                    </div>
+
+
+                    <!-- Progress Overview -->
+                    <div class="overview-grid">
+
+                        <div class="overview-card">
+
+                            <div class="overview-icon">
+                                ◫
+                            </div>
+
+                            <div>
+                                <span class="card-label">Modules</span>
+                                <strong>0 / 7</strong>
+                                <small>Completed</small>
+                            </div>
+
+                        </div>
+
+
+                        <div class="overview-card">
+
+                            <div class="overview-icon">
+                                ✓
+                            </div>
+
+                            <div>
+                                <span class="card-label">Assessments</span>
+                                <strong>0 / 7</strong>
+                                <small>Completed</small>
+                            </div>
+
+                        </div>
+
+
+                        <div class="overview-card">
+
+                            <div class="overview-icon">
+                                ◔
+                            </div>
+
+                            <div>
+                                <span class="card-label">Progress</span>
+                                <strong>0%</strong>
+                                <small>Overall completion</small>
+                            </div>
+
+                        </div>
+
+
+                        <div class="overview-card">
+
+                            <div class="overview-icon">
+                                ★
+                            </div>
+
+                            <div>
+                                <span class="card-label">Learning Streak</span>
+                                <strong>0 days</strong>
+                                <small>Keep learning</small>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Continue Learning -->
+                    <section class="section">
+
+                        <div class="section-header">
+
+                            <div>
+                                <p class="eyebrow">YOUR LEARNING PATH</p>
+                                <h2>Continue Learning</h2>
+                            </div>
+
+                            <button class="text-button" data-page-target="modules">
+                                View all modules →
+                            </button>
+
+                        </div>
+
+
+                        <div class="continue-card">
+
+                            <div class="module-number">01</div>
+
+                            <div class="continue-info">
+
+                                <span class="status-label">
+                                    NEXT MODULE
+                                </span>
+
+                                <h3>Classes and Objects</h3>
+
+                                <p>
+                                    Learn how classes define objects and how
+                                    objects represent real-world entities in Java.
+                                </p>
+
+                                <div class="mini-progress">
+
+                                    <div class="progress-track">
+                                        <div class="progress-fill" style="width: 0%"></div>
+                                    </div>
+
+                                    <span>0% complete</span>
+
+                                </div>
+
+                            </div>
+
+                            <button class="secondary-button">
+                                Start Module
+                                <span>→</span>
+                            </button>
+
+                        </div>
+
+                    </section>
+
+
+                    <!-- Learning Path -->
+                    <section class="section">
+
+                        <div class="section-header">
+
+                            <div>
+                                <p class="eyebrow">7-MODULE PROGRAM</p>
+                                <h2>Your Learning Path</h2>
+                            </div>
+
+                        </div>
+
+
+                        <div class="module-grid">
+
+                            <article class="module-card available">
+
+                                <div class="module-card-top">
+                                    <span class="module-badge">01</span>
+                                    <span class="module-status">Available</span>
+                                </div>
+
+                                <h3>Classes and Objects</h3>
+
+                                <p>
+                                    Understand classes, objects, fields,
+                                    methods, and object creation.
+                                </p>
+
+                                <div class="module-meta">
+                                    <span>◷ 35 min</span>
+                                    <span>3 activities</span>
+                                </div>
+
+                                <button class="module-button">
+                                    Start Learning →
+                                </button>
+
+                            </article>
+
+
+                            <article class="module-card available">
+
+                                <div class="module-card-top">
+                                    <span class="module-badge">02</span>
+                                    <span class="module-status">Available</span>
+                                </div>
+
+                                <h3>Encapsulation</h3>
+
+                                <p>
+                                    Learn how to protect object data using
+                                    encapsulation and controlled access.
+                                </p>
+
+                                <div class="module-meta">
+                                    <span>◷ 40 min</span>
+                                    <span>3 activities</span>
+                                </div>
+
+                                <button class="module-button">
+                                    Start Learning →
+                                </button>
+
+                            </article>
+
+
+                            <article class="module-card available">
+
+                                <div class="module-card-top">
+                                    <span class="module-badge">03</span>
+                                    <span class="module-status">Available</span>
+                                </div>
+
+                                <h3>Inheritance</h3>
+
+                                <p>
+                                    Understand how classes can inherit and
+                                    extend behavior from other classes.
+                                </p>
+
+                                <div class="module-meta">
+                                    <span>◷ 40 min</span>
+                                    <span>3 activities</span>
+                                </div>
+
+                                <button class="module-button">
+                                    Start Learning →
+                                </button>
+
+                            </article>
+
+
+                            <article class="module-card available">
+
+                                <div class="module-card-top">
+                                    <span class="module-badge">04</span>
+                                    <span class="module-status">Available</span>
+                                </div>
+
+                                <h3>Polymorphism</h3>
+
+                                <p>
+                                    Explore method overriding, parent
+                                    references, and runtime behavior.
+                                </p>
+
+                                <div class="module-meta">
+                                    <span>◷ 40 min</span>
+                                    <span>3 activities</span>
+                                </div>
+
+                                <button class="module-button">
+                                    Start Learning →
+                                </button>
+
+                            </article>
+
+
+                            <article class="module-card available">
+
+                                <div class="module-card-top">
+                                    <span class="module-badge">05</span>
+                                    <span class="module-status">Available</span>
+                                </div>
+
+                                <h3>Abstraction and Interfaces</h3>
+
+                                <p>
+                                    Learn how abstract classes and interfaces
+                                    define reusable contracts and behavior.
+                                </p>
+
+                                <div class="module-meta">
+                                    <span>◷ 45 min</span>
+                                    <span>3 activities</span>
+                                </div>
+
+                                <button class="module-button">
+                                    Start Learning →
+                                </button>
+
+                            </article>
+
+
+                            <article class="module-card available">
+
+                                <div class="module-card-top">
+                                    <span class="module-badge">06</span>
+                                    <span class="module-status">Available</span>
+                                </div>
+
+                                <h3>Composition and Relationships</h3>
+
+                                <p>
+                                    Model real-world has-a relationships
+                                    between objects using composition.
+                                </p>
+
+                                <div class="module-meta">
+                                    <span>◷ 40 min</span>
+                                    <span>3 activities</span>
+                                </div>
+
+                                <button class="module-button">
+                                    Start Learning →
+                                </button>
+
+                            </article>
+
+
+                            <article class="module-card capstone">
+
+                                <div class="module-card-top">
+                                    <span class="module-badge">07</span>
+                                    <span class="module-status">Capstone</span>
+                                </div>
+
+                                <h3>OOP Capstone Project</h3>
+
+                                <p>
+                                    Apply all major OOP concepts by building
+                                    a complete Java learning management system.
+                                </p>
+
+                                <div class="module-meta">
+                                    <span>◷ 60–90 min</span>
+                                    <span>Final Project</span>
+                                </div>
+
+                                <button class="module-button">
+                                    View Capstone →
+                                </button>
+
+                            </article>
+
+                        </div>
+
+                    </section>
+
+                </section>
+
+
+                <!-- Modules Page -->
+                <section id="modules-page" class="page">
+
+                    <div class="page-introduction">
+
+                        <p class="eyebrow">LEARNING PATH</p>
+
+                        <h1>All Modules</h1>
+
+                        <p>
+                            Work through the seven modules in sequence.
+                            Each module includes learning content, practice,
+                            and assessment.
+                        </p>
+
+                    </div>
+
+                    <div id="modules-container" class="module-grid">
+                        <!-- Modules will be populated by JavaScript -->
+                    </div>
+
+                </section>
+
+
+                <!-- Progress Page -->
+                <section id="progress-page" class="page">
+
+                    <div class="page-introduction">
+
+                        <p class="eyebrow">YOUR LEARNING JOURNEY</p>
+
+                        <h1>My Progress</h1>
+
+                        <p>
+                            Track your learning progress across all seven modules.
+                        </p>
+
+                    </div>
+
+                    <div class="progress-summary">
+
+                        <div class="progress-large-card">
+
+                            <span>Overall Progress</span>
+
+                            <strong id="overall-progress">
+                                0%
+                            </strong>
+
+                            <div class="large-progress-track">
+                                <div id="overall-progress-bar" class="large-progress-fill" style="width: 0%">
+                                </div>
+                            </div>
+
+                            <p>
+                                Complete learning activities and assessments
+                                to increase your progress.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div id="progress-modules" class="progress-module-list">
+                        <!-- Progress will be populated by JavaScript -->
+                    </div>
+
+                </section>
+
+                <!-- Module Learning Page -->
+                <section id="module-learning-page" class="page">
+
+                    <div class="learning-header">
+
+                        <button class="back-button" id="back-to-modules">
+                            ← Back to Modules
+                        </button>
+
+                        <div class="learning-module-label">
+                            MODULE <span id="learning-module-number">01</span>
+                        </div>
+
+                        <h1 id="learning-module-title">
+                            Classes and Objects
+                        </h1>
+
+                        <p id="learning-module-description">
+                            Understand classes, objects, fields, methods,
+                            and object creation.
+                        </p>
+
+                        <div class="learning-meta">
+                            <span id="learning-module-duration">◷ 35 min</span>
+                            <span>Learning Content</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="learning-layout">
+
+                        <!-- Learning Content -->
+                        <article class="learning-content">
+
+                            <div class="content-card">
+
+                                <div class="content-card-header">
+                                    <span class="content-label">
+                                        LEARNING CONTENT
+                                    </span>
+
+                                    <span id="content-progress-label">
+                                        Step 1
+                                    </span>
+                                </div>
+
+                                <div id="learning-content-body">
+
+                                    <h2>
+                                        Welcome to the module
+                                    </h2>
+
+                                    <p>
+                                        Your learning content will appear here.
+                                    </p>
+
+                                    <p>
+                                        Complete this section to continue
+                                        through the learning experience.
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="learning-actions">
+
+                                <button class="secondary-button" id="previous-content">
+                                    ← Previous
+                                </button>
+
+                                <button class="primary-button" id="next-content">
+                                    Continue →
+                                </button>
+
+                            </div>
+
+                        </article>
+
+
+                        <!-- Learning Progress Sidebar -->
+                        <aside class="learning-sidebar">
+
+                            <div class="learning-progress-card">
+
+                                <span class="content-label">
+                                    MODULE PROGRESS
+                                </span>
+
+                                <strong id="module-progress-percentage">
+                                    0%
+                                </strong>
+
+                                <div class="large-progress-track">
+
+                                    <div id="module-progress-bar" class="large-progress-fill" style="width: 0%">
+                                    </div>
+
+                                </div>
+
+                                <p>
+                                    Complete the learning content,
+                                    activity, and assessment to finish
+                                    this module.
+                                </p>
+
+                            </div>
+
+
+                            <div class="learning-steps-card">
+
+                                <span class="content-label">
+                                    LEARNING PATH
+                                </span>
+
+                                <div class="learning-step active">
+                                    <span class="step-number">1</span>
+
+                                    <div>
+                                        <strong>Learn</strong>
+                                        <small>Understand the concept</small>
+                                    </div>
+                                </div>
+
+                                <div class="learning-step">
+                                    <span class="step-number">2</span>
+
+                                    <div>
+                                        <strong>Practice</strong>
+                                        <small>Apply what you learned</small>
+                                    </div>
+                                </div>
+
+                                <div class="learning-step">
+                                    <span class="step-number">3</span>
+
+                                    <div>
+                                        <strong>Assess</strong>
+                                        <small>Check your understanding</small>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </aside>
+
+                    </div>
+
+                </section>
+
+                <!-- Assessments Page -->
+                <section id="assessments-page" class="page">
+
+                    <div class="page-introduction">
+
+                        <p class="eyebrow">KNOWLEDGE CHECK</p>
+
+                        <h1>Assessments</h1>
+
+                        <p>
+                            Test your understanding after completing each module.
+                        </p>
+
+                    </div>
+
+                    <div id="assessments-container" class="assessment-list">
+                        <!-- Assessments will be populated by JavaScript -->
+                    </div>
+
+                </section>
+
+
+            </div>
+
+        </main>
+
+    </div>
+
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
